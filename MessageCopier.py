@@ -19,9 +19,9 @@ class LatestMessageCopier(discord.Client):
         self.source_channel = None
         
     async def on_ready(self):
-        print(f'✓ Logged in as {self.user}')
-        print(f'✓ Monitoring channel ID: {SOURCE_CHANNEL_ID}')
-        print(f'✓ Checking every {CHECK_INTERVAL} seconds for new messages')
+        print(f'Logged in as {self.user}')
+        print(f'Monitoring channel ID: {SOURCE_CHANNEL_ID}')
+        print(f'Checking every {CHECK_INTERVAL} seconds for new messages')
         
         self.source_channel = self.get_channel(SOURCE_CHANNEL_ID)
         if not self.source_channel:
