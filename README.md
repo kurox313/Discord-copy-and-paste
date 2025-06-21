@@ -2,8 +2,8 @@
 a simple copy and paste technique involving selfbot and webhooks
 
 # installation guide
-create/activate venv
-command: python -m venv venv
+create/activate venv \n
+command: python -m venv venv \n
 to enter: venv\Scripts\activate.bat
 
 commands
