@@ -1,0 +1,7 @@
+im too lazy to do this shit this is a diy
+
+install python
+python -m venv venv
+source venv/bin/activate
+pip install git+https://github.com/dolfies/discord.py-self.git audioop-lts aiohttp webhooks
+python MessageCopier.py
